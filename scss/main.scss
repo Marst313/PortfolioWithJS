@@ -1,0 +1,48 @@
+@font-face {
+  font-family: Roboto Slab;
+  src: url(/font/roboto-slab/RobotoSlab-Regular.ttf);
+}
+@font-face {
+  font-family: EB Garamond;
+  src: url(/font/EB_Garamond/EBGaramond-VariableFont_wght.ttf);
+}
+
+body {
+  font-family: Roboto Slab;
+}
+
+.navbar {
+  background-color: #576f72;
+  .navbar-brand {
+    font-size: 32px;
+    font-family: EB Garamond;
+  }
+  a {
+    color: #e4dccf;
+  }
+  button {
+    background-color: #e4dccf;
+  }
+  .collapse {
+    ul {
+      li {
+        padding-left: 1em;
+        a {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+  .icon {
+    ul {
+      list-style: none;
+      display: flex;
+      li {
+        margin-top: 15px;
+      }
+      li:nth-child(4) {
+        padding-right: 2.5em;
+      }
+    }
+  }
+}
