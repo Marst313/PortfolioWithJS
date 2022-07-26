@@ -9,6 +9,7 @@
 
 body {
   font-family: Roboto Slab;
+  background-color: #7d9d9c;
 }
 
 .navbar {
@@ -42,6 +43,59 @@ body {
       }
       li:nth-child(4) {
         padding-right: 2.5em;
+      }
+    }
+  }
+}
+// Section hero
+.hero {
+  padding-top: 10em;
+  .container {
+    h1 {
+      color: #e4dccf;
+    }
+    h5 {
+      position: absolute;
+      width: 246px;
+      height: 27px;
+      font-family: 'EB Garamond';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 15px;
+      line-height: 20px;
+      color: rgba(87, 111, 114, 0.5);
+    }
+    .name {
+      color: #ca3636;
+    }
+    .type {
+      text-shadow: 2px 2px #576f72;
+    }
+    button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 1em;
+      height: 40px;
+      background-color: #f0ebe3;
+      color: #576f72;
+      border-color: #576f72;
+      border-width: 3px;
+      border-radius: 50px;
+    }
+    button:hover {
+      background-color: #1e1e1e;
+    }
+
+    .col:nth-child(2) {
+      img {
+        margin-top: -70px;
+        margin-left: -50px;
+        position: absolute;
+        width: 349.49px;
+        height: 356.25px;
+        background: #576f72;
+        box-shadow: 15px 2px 90px -20px #000000;
       }
     }
   }
