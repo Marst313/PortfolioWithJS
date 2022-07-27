@@ -1,0 +1,23 @@
+.footer {
+  background-color: #576f72;
+  height: 80px;
+  .container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .col {
+      width: 1248px;
+      height: 31px;
+      padding-top: 26px;
+
+      font-family: 'EB Garamond';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 20px;
+      line-height: 26px;
+      text-align: center;
+
+      color: #f0ebe3;
+    }
+  }
+}

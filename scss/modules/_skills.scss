@@ -1,0 +1,51 @@
+/* section Skill */
+.skill {
+  .container-fluid {
+    .row {
+      .col {
+        h1 {
+          &:hover {
+            animation: mymovetop 2s forwards;
+          }
+        }
+      }
+    }
+  }
+  .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    img {
+      width: 200px;
+      height: 200px;
+      background-color: transparent;
+      border: transparent;
+      &:hover {
+        animation: myrotation 1s backwards;
+      }
+    }
+  }
+  .row {
+    .col {
+      h1 {
+        display: flex;
+        justify-content: center;
+        margin-left: 10%;
+        width: 1250px;
+        height: 165px;
+
+        font-family: 'EB Garamond';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 128px;
+        line-height: 167px;
+        text-align: center;
+
+        color: rgba(228, 220, 207, 0.25);
+
+        text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+}

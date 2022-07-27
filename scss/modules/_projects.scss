@@ -1,0 +1,79 @@
+/* section projects */
+.projects {
+  height: 800px;
+  .judul {
+    .col {
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 5%;
+      h1 {
+        /* Projects */
+
+        height: 165px;
+
+        font-family: 'EB Garamond';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 128px;
+        line-height: 167px;
+        text-align: right;
+
+        color: rgba(228, 220, 207, 0.25);
+
+        text-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
+        &:hover {
+          animation: mymoveleft 2s forwards;
+        }
+      }
+    }
+  }
+}
+.judul-navigasi {
+  .container-fluid {
+    button {
+      width: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 1em;
+      height: 40px;
+      background-color: rgba(87, 111, 114, 1);
+
+      color: rgba(240, 235, 227, 1);
+      border-color: rgba(240, 235, 227, 1);
+      border-width: 3px;
+      border-radius: 20px;
+      margin: 2em;
+      &:hover {
+        background-color: rgba(87, 111, 114, 0.5);
+      }
+      &:active {
+        background-color: rgba(240, 235, 227, 1);
+        color: rgba(87, 111, 114, 1);
+        border-color: rgba(87, 111, 114, 1);
+      }
+      &:nth-child(1) {
+        margin-left: 40%;
+      }
+    }
+  }
+}
+.content {
+  .container-fluid {
+    .row {
+      img {
+        &:nth-child(1) {
+          margin-left: 25%;
+        }
+      }
+      .gambar-akhir {
+        margin-right: 25%;
+      }
+    }
+    img {
+      width: 350px;
+      height: 200px;
+      margin-top: 1em;
+    }
+  }
+}
